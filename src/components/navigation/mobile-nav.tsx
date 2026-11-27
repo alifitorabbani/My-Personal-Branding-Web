@@ -56,7 +56,7 @@ export function MobileNav({ open, onOpenChange }: MobileNavProps) {
       <SheetContent side="right" className="p-0 w-[260px]">
         <SheetHeader className="px-6 py-4 border-b border-border">
           <SheetTitle className="font-heading font-bold text-lg tracking-tight">
-            Alifito Rabbani Cahyono
+            Afrabbanii
           </SheetTitle>
         </SheetHeader>
         <nav className="px-6 py-4 space-y-1">
@@ -93,7 +93,7 @@ export function MobileNav({ open, onOpenChange }: MobileNavProps) {
         </div>
         <SheetFooter className="px-6 py-4 border-t border-border">
           <p className="text-xs text-secondary-text">
-            <CurrentYear /> Alifito Rabbani Cahyono
+            <CurrentYear /> Afrabbanii
           </p>
         </SheetFooter>
       </SheetContent>

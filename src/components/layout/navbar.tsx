@@ -41,17 +41,15 @@ export function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
-      <div className="container mx-auto px-4 h-16 flex items-center justify-between gap-4">
-        <div className="flex items-center gap-2 shrink-0 min-w-[200px] text-center">
-          <Link
-            href="/"
-            className="font-heading font-bold text-lg tracking-tight text-primary-text hover:text-primary transition-colors"
-          >
-            Alifito Rabbani Cahyono
-          </Link>
-        </div>
+      <div className="container mx-auto px-8 h-16 flex items-center justify-center gap-4">
+        <Link
+          href="/"
+          className="font-heading font-bold text-lg tracking-tight text-primary-text hover:text-primary transition-colors"
+        >
+          Afrabbanii
+        </Link>
 
-        <div className="hidden md:flex items-center gap-4 shrink-0">
+        <div className="hidden md:flex items-center gap-4">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
@@ -63,7 +61,7 @@ export function Navbar() {
           ))}
         </div>
 
-        <div className="flex items-center gap-2 shrink-0">
+        <div className="flex items-center gap-2">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="outline" size="icon" aria-label="Theme" suppressHydrationWarning>

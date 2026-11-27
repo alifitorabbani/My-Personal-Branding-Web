@@ -16,7 +16,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 border-b border-border pb-8">
           <div className="flex items-center gap-2">
             <span className="font-heading font-bold text-lg tracking-tight text-primary-text">
-              Alifito Rabbani Cahyono
+              Afrabbanii
             </span>
           </div>
 
@@ -46,7 +46,7 @@ export function Footer() {
         </div>
 
         <p className="mt-8 text-xs text-secondary-text text-center">
-          {<CurrentYear />} Alifito Rabbani Cahyono. All rights reserved.
+          {<CurrentYear />} Afrabbanii. All rights reserved.
         </p>
       </div>
     </footer>

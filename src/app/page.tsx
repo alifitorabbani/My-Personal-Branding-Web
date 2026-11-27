@@ -90,11 +90,19 @@ export default function Home() {
                   </span>
                   {PERSON.availability ? "Available for work" : "Open to conversations"}
                 </div>
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8, delay: 0.05 }}
+                  className="text-3xl md:text-7xl font-heading font-bold tracking-tight text-primary-text mb-4"
+                >
+                  Alifito Rabbani Cahyono
+                </motion.p>
                 <motion.h1
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.1 }}
-                  className="text-5xl md:text-7xl font-heading font-bold leading-none tracking-tight text-primary-text"
+                  className="text-2xl md:text-4xl font-heading font-bold leading-none tracking-tight text-primary-text"
                 >
                   Building Intelligent Systems.<br />
                   Engineering Meaningful Solutions.
